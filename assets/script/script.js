@@ -1,75 +1,74 @@
 let c = document.getElementById("canvas")
 let ctx = c.getContext("2d");
-var X = c.width;
-var Y = c.height;
+
 ctx.beginPath();
 ctx.fillStyle = "#012169";
-ctx.fillRect(X/(X/100), Y/(Y/100), X/(X/360), Y/(Y/180));
+ctx.fillRect(100, 100, 360, 180);
 
 ctx.beginPath();
 ctx.fillStyle = "white";
-ctx.moveTo(X/(X/100), Y/(Y/100));
-ctx.lineTo(X/(X/136), Y/(Y/100));
-ctx.lineTo(X/(X/460), Y/(Y/259));
-ctx.lineTo(X/(X/460), Y/(Y/280));
-ctx.lineTo(X/(X/418), Y/(Y/280));
-ctx.lineTo(X/(X/100), Y/(Y/121));
-ctx.fill();
-
-ctx.beginPath();
-ctx.fillStyle = "white";
-ctx.moveTo(X/(X/460), Y/(Y/100));
-ctx.lineTo(X/(X/418), Y/(Y/100));
-ctx.lineTo(X/(X/100), Y/(Y/259));
-ctx.lineTo(X/(X/100), Y/(Y/280));
-ctx.lineTo(X/(X/136), Y/(Y/280));
-ctx.lineTo(X/(X/460), Y/(Y/121));
-ctx.fill();
-
-ctx.beginPath();
-ctx.fillStyle = "#C8102E";
-ctx.moveTo(X/(X/460), Y/(Y/100));
-ctx.lineTo(X/(X/436), Y/(Y/100));
-ctx.lineTo(X/(X/310), Y/(Y/160));
-ctx.lineTo(X/(X/334), Y/(Y/160));
-ctx.fill();
-
-ctx.beginPath();
-ctx.fillStyle = "#C8102E";
-ctx.moveTo(X/(X/460), Y/(Y/280));
-ctx.lineTo(X/(X/340), Y/(Y/220));
-ctx.lineTo(X/(X/360), Y/(Y/220));
-ctx.lineTo(X/(X/460), Y/(Y/268));
-ctx.fill();
-
-ctx.beginPath();
-ctx.fillStyle = "#C8102E";
-ctx.moveTo(X/(X/100), Y/(Y/100));
-ctx.lineTo(X/(X/220), Y/(Y/160));
-ctx.lineTo(X/(X/196), Y/(Y/160));
-ctx.lineTo(X/(X/100), Y/(Y/112));
-ctx.fill();
-
-ctx.beginPath();
-ctx.fillStyle = "#C8102E";
-ctx.moveTo(X/(X/100), Y/(Y/280));
-ctx.lineTo(X/(X/220), Y/(Y/220));
-ctx.lineTo(X/(X/244), Y/(Y/220));
-ctx.lineTo(X/(X/124), Y/(Y/280));
+ctx.moveTo(100, 100);
+ctx.lineTo(136, 100);
+ctx.lineTo(460, 259);
+ctx.lineTo(460, 280);
+ctx.lineTo(418, 280);
+ctx.lineTo(100, 121);
 ctx.fill();
 
 ctx.beginPath();
 ctx.fillStyle = "white";
-ctx.fillRect(X/(X/100), Y/(Y/160), X/(X/360), Y/(Y/60));
+ctx.moveTo(460, 100);
+ctx.lineTo(418, 100);
+ctx.lineTo(100, 259);
+ctx.lineTo(100, 280);
+ctx.lineTo(136, 280);
+ctx.lineTo(460, 121);
+ctx.fill();
+
+ctx.beginPath();
+ctx.fillStyle = "#C8102E";
+ctx.moveTo(460, 100);
+ctx.lineTo(436, 100);
+ctx.lineTo(310, 160);
+ctx.lineTo(334, 160);
+ctx.fill();
+
+ctx.beginPath();
+ctx.fillStyle = "#C8102E";
+ctx.moveTo(460, 280);
+ctx.lineTo(340, 220);
+ctx.lineTo(360, 220);
+ctx.lineTo(460, 268);
+ctx.fill();
+
+ctx.beginPath();
+ctx.fillStyle = "#C8102E";
+ctx.moveTo(100, 100);
+ctx.lineTo(220, 160);
+ctx.lineTo(196, 160);
+ctx.lineTo(100, 112);
+ctx.fill();
+
+ctx.beginPath();
+ctx.fillStyle = "#C8102E";
+ctx.moveTo(100, 280);
+ctx.lineTo(220, 220);
+ctx.lineTo(244, 220);
+ctx.lineTo(124, 280);
+ctx.fill();
 
 ctx.beginPath();
 ctx.fillStyle = "white";
-ctx.fillRect(X/(X/250), Y/(Y/100), X/(X/60), Y/(Y/180));
+ctx.fillRect(100, 160, 360, 60);
+
+ctx.beginPath();
+ctx.fillStyle = "white";
+ctx.fillRect(250, 100, 60, 180);
 
 ctx.beginPath();
 ctx.fillStyle = "#C8102E";
-ctx.fillRect(X/(X/262), Y/(Y/100), X/(X/36), Y/(Y/180));
+ctx.fillRect(262, 100, 36, 180);
 
 ctx.beginPath();
 ctx.fillStyle = "#C8102E";
-ctx.fillRect(X/(X/100), Y/(Y/172), X/(X/360), Y/(Y/36));
+ctx.fillRect(100, 172, 360, 36);
