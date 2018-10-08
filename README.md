@@ -1,10 +1,4 @@
 # A portfolio of canvas projects
-## By Guillaume Deruwez
-----
-This page represent a convenient way to get to the various canvas projects I have created.
-The link to the page is here https://gderuwez.github.io/Canvas/
-
-# A portfolio of canvas projects
 - **Where ?** : [BeCode](https://www.becode.org/)
 - **When ?** : July 12 to July 13 2018
 - **Who ?** : [Deruwez Guillaume](https://github.com/gderuwez)
